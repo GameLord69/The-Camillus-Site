@@ -1,0 +1,268 @@
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url(https://png.pngtree.com/background/20250104/original/pngtree-yellow-gradient-color-comic-illustration-background-with-black-stripe-picture-image_15698136.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+header {
+    font-family: Arial, sans-serif;
+
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    padding: 5px;
+
+    background-image: linear-gradient(
+        to bottom right,
+        #fbff00,
+        #ffa600,
+        #dd6b00
+    );
+
+    text-align: center;
+}
+
+.layout {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+main {
+    flex: 1;
+
+    border: 2px solid #000000;
+    border-radius: 16px;
+    padding: 10px;
+
+    background-image: linear-gradient(
+        to bottom right,
+        #fbff00,
+        #ffa600,
+        #dd6b00
+    );
+}
+
+section {
+    margin: 10px 0;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    padding: 15px;
+
+    background-image: linear-gradient(
+        to bottom right,
+        #fbff00,
+        #ffa600,
+        #dd6b00
+    );
+}
+
+.sidebar {
+    width: 25%;
+
+    border: 2px solid #000000;
+    border-radius: 16px;
+    padding: 15px;
+
+    background-image: linear-gradient(
+        to bottom right,
+        #fbff00,
+        #ffa600,
+        #dd6b00
+    );
+}
+
+#clock-container {
+  /* Alignment */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Typography */
+  font-size: 50px;
+  
+  /* Box Model */
+  margin: 30px;
+  padding: 25px;
+  
+  /* Border */
+  border: 2px solid;
+  border-radius: 16px;
+  background-image: linear-gradient(to bottom right, #fac000, #fae900 );
+  }
+
+#clock {
+  font-family: monospace;
+  font-weight: bold;
+  }
+
+#h1_1 {
+  padding: 20px;
+  }
+  
+#currentClass_id {
+  margin: 10px;
+  padding: 10px;
+  
+  font-size: 25px;
+  }
+  
+hr {
+  border: none;
+  height: 2px;
+  background-color: #000000;
+  }
+  
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 20px;
+
+  border: 2px solid #000000;
+  border-radius: 0 0 10px 10px;
+
+  background-image: linear-gradient(
+    to bottom right,
+    #fac000,
+    #fae900
+  );
+
+  z-index: 1000;
+}
+  
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+
+    border: 2px solid #000000;
+    border-radius: 16px;
+    padding: 15px;
+
+    text-align: center;
+}
+
+.side-caption {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+}
+
+.side-caption figcaption {
+  flex: 1;
+}
+
+.side-caption img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar a:hover {
+    background-color: #fac000;
+}
+
+.sidebar a {
+    display: block;
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: 2px solid #000000;
+    border-radius: 16px;
+
+    color: #000000;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    font-size: 20px;
+
+    background-color: #ffffff;
+}
+
+#prayer-alert {
+    display: none;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 350px;
+    padding: 25px;
+
+    border: 3px solid #000000;
+    border-radius: 20px;
+
+    background-image: linear-gradient(
+        to bottom right,
+        #fbff00,
+        #ffa600,
+        #dd6b00
+    );
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+
+    z-index: 2000;
+}
+
+#prayer-alert h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+#prayer-alert p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#prayer-alert button {
+    padding: 10px 25px;
+
+    border: 2px solid #000000;
+    border-radius: 12px;
+
+    background-color: #ffffff;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#prayer-alert button:hover {
+    background-color: #fac000;
+}
+
+.Return_to_top  {
+  background-color: #ffffff;
+
+  margin: 5px;
+}
+
+.Return_to_top:hover {
+    background-color: #fac000;
+}
